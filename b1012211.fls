@@ -1,0 +1,8 @@
+PWD /Users/ichinosetomohiro/Documents/卒業論文
+INPUT /usr/local/texlive/texmf-local/web2c/texmf.cnf
+INPUT /usr/local/texlive/2014/texmf.cnf
+INPUT /usr/local/texlive/2014/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2014/texmf.cnf
+INPUT /usr/local/texlive/2014/texmf-var/web2c/eptex/platex.fmt
+INPUT b1012211.tex
+OUTPUT b1012211.log

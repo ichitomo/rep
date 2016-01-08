@@ -1,0 +1,11 @@
+# Fdb version 3
+["dvipdf"] 0 "b1012211.dvi" "b1012211.pdf" "b1012211" 0
+  "b1012211.dvi" 0 -1 0 "latex"
+  (generated)
+  "b1012211.pdf"
+["latex"] 0 "b1012211.tex" "b1012211.dvi" "b1012211" 0
+  "b1012211.aux" 1450353007 8 a94a2480d3289e625eea47cd1b285758 ""
+  "b1012211.tex" 0 -1 0 ""
+  (generated)
+  "b1012211.log"
+  "b1012211.dvi"

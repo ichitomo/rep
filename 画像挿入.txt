@@ -1,0 +1,7 @@
+\begin{figure}[htbp]
+ \begin{center}
+  \includegraphics[width=100mm]{fig1.eps}
+ \end{center}
+ \caption{図の説明}
+ \label{fig:one}
+\end{figure}
