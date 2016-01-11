@@ -7,7 +7,7 @@
 \contentsline {section}{\numberline {2.2}研究アプローチ}{2}
 \contentsline {chapter}{\numberline {第3章}関連研究}{3}
 \contentsline {section}{\numberline {3.1}クリッカー}{3}
-\contentsline {section}{\numberline {3.2}サイボウズLive}{3}
+\contentsline {section}{\numberline {3.2}サイボウズLive[] }{3}
 \contentsline {chapter}{\numberline {第4章}提案するアプリケーションの概要}{4}
 \contentsline {section}{\numberline {4.1}提案するアプリケーションの特徴}{4}
 \contentsline {section}{\numberline {4.2}クライアント側のプログラムの役割}{4}
@@ -22,14 +22,14 @@
 \contentsline {subsubsection}{Leap Motionの使用方法}{5}
 \contentsline {subsubsection}{Leap MotionSDKのダウンロード}{7}
 \contentsline {subsubsection}{Leap Motionの評価}{7}
-\contentsline {subsubsection}{ソケット通信について}{7}
-\contentsline {chapter}{\numberline {第5章}実験と評価}{8}
-\contentsline {section}{\numberline {5.1}実験について}{8}
-\contentsline {subsection}{\numberline {5.1.1}評価方法について}{8}
-\contentsline {section}{\numberline {5.2}アンケート}{8}
-\contentsline {chapter}{\numberline {第6章}考察}{9}
-\contentsline {section}{\numberline {6.1}評価結果}{9}
-\contentsline {section}{\numberline {6.2}評価結果}{9}
-\contentsline {chapter}{\numberline {第7章}結論と今後の展開}{10}
-\contentsline {section}{\numberline {7.1}まとめ}{10}
-\contentsline {section}{\numberline {7.2}今後の方針}{10}
+\contentsline {subsubsection}{ソケット通信について}{8}
+\contentsline {chapter}{\numberline {第5章}実験と評価}{9}
+\contentsline {section}{\numberline {5.1}実験について}{9}
+\contentsline {subsection}{\numberline {5.1.1}評価方法について}{9}
+\contentsline {section}{\numberline {5.2}アンケート}{9}
+\contentsline {chapter}{\numberline {第6章}考察}{10}
+\contentsline {section}{\numberline {6.1}評価結果}{10}
+\contentsline {section}{\numberline {6.2}評価結果}{10}
+\contentsline {chapter}{\numberline {第7章}結論と今後の展開}{11}
+\contentsline {section}{\numberline {7.1}まとめ}{11}
+\contentsline {section}{\numberline {7.2}今後の方針}{11}

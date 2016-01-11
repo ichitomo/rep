@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.7.8)  8 JAN 2016 17:31
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.7.8)  11 JAN 2016 15:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -146,34 +146,37 @@ LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
 
 ]
 第 3 章
-[3
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 130.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 130.
+ [3
 
 ]
 第 4 章
 [4
 
-]
-
-LaTeX Warning: Reference `Lset' on page 5 undefined on input line 235.
-
+] [5]
 File: ./img/installer.png Graphic file (type bmp)
-<./img/installer.png> [5]
+ <./img/installer.png>
 File: ./img/setting.png Graphic file (type bmp)
  <./img/setting.png>
 File: ./img/Lset.png Graphic file (type bmp)
  <./img/Lset.png> [6] [7]
+[8]
 第 5 章
-[8
-
-]
-第 6 章
 [9
 
 ]
-第 7 章
+第 6 章
 [10
 
-] [11
+]
+第 7 章
+[11
 
 ] [12
 
@@ -181,37 +184,33 @@ File: ./img/Lset.png Graphic file (type bmp)
 
 ] [14
 
+] [15
+
 ] (./b1012211.lof)
 \tf@lof=\write4
 \openout4 = `b1012211.lof'.
 
- [15
+ [16
 
 ] (./b1012211.lot)
 \tf@lot=\write5
 \openout5 = `b1012211.lot'.
 
- [16
+ [17
 
 ]
 (./b1012211.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 813 strings out of 493800
- 9737 string characters out of 6151525
+ 830 strings out of 493800
+ 10042 string characters out of 6151525
  70934 words of memory out of 5000000
- 4305 multiletter control sequences out of 15000+600000
+ 4319 multiletter control sequences out of 15000+600000
  17903 words of font info for 69 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,7n,21p,610b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,7n,22p,610b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on b1012211.dvi (19 pages, 30144 bytes).
+Output written on b1012211.dvi (20 pages, 34240 bytes).
