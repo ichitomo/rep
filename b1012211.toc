@@ -26,14 +26,14 @@
 \contentsline {subsubsection}{Leap Motionを使用する前の確認事項}{8}
 \contentsline {subsubsection}{Leap MotionSDKのダウンロード}{11}
 \contentsline {subsubsection}{Leap Motionの評価}{11}
-\contentsline {subsubsection}{ソケット通信について}{11}
-\contentsline {chapter}{\numberline {第5章}実験と評価}{12}
-\contentsline {section}{\numberline {5.1}実験について}{12}
-\contentsline {subsection}{\numberline {5.1.1}評価方法について}{12}
-\contentsline {section}{\numberline {5.2}アンケート}{12}
-\contentsline {chapter}{\numberline {第6章}考察}{13}
-\contentsline {section}{\numberline {6.1}評価結果}{13}
-\contentsline {section}{\numberline {6.2}評価結果}{13}
-\contentsline {chapter}{\numberline {第7章}結論と今後の展開}{14}
-\contentsline {section}{\numberline {7.1}まとめ}{14}
-\contentsline {section}{\numberline {7.2}今後の方針}{14}
+\contentsline {subsubsection}{ソケット通信について}{12}
+\contentsline {chapter}{\numberline {第5章}実験と評価}{13}
+\contentsline {section}{\numberline {5.1}実験について}{13}
+\contentsline {subsection}{\numberline {5.1.1}評価方法について}{13}
+\contentsline {section}{\numberline {5.2}アンケート}{13}
+\contentsline {chapter}{\numberline {第6章}考察}{14}
+\contentsline {section}{\numberline {6.1}評価結果}{14}
+\contentsline {section}{\numberline {6.2}評価結果}{14}
+\contentsline {chapter}{\numberline {第7章}結論と今後の展開}{15}
+\contentsline {section}{\numberline {7.1}まとめ}{15}
+\contentsline {section}{\numberline {7.2}今後の方針}{15}

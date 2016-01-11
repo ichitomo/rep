@@ -333,10 +333,52 @@ Leap Motionを使ったアプリケーションを開発するためにSDKを自
 
 \subsubsection{Leap Motionの評価}
 %Leap Motionの評価
-Leap Motionの入力装置としての特性を追求した. ここではLeap Motionの良い点と欠点をあげる. Leap Motionの良い点は, 次の3つある. 
-　1つ目は, Leap Motionでは手や指の位置や方向, ジェスチャーなどを検知し, リアルタイムで入力操作ができるという点である.ほにゃららほにゃららほにゃららほにゃららほにゃらら.\\ 
-　2つ目は, 指の曲げを判定できるので, 入力パターンが豊富であることがいえる. ほにゃららほにゃららほにゃららほにゃららほにゃらら.\\
-　3つ目は, Leap Motionをキーボードやマウスなどの入力装置と比較したとき, 音を出さずに入力できるという利点がある.ほにゃららほにゃららほにゃららほにゃららほにゃらら.\\
+Leap Motionの入力装置としての特性を追求した. ここではLeap Motionの良い点と欠点をあげる. Leap Motionの良い点は, 次の3つある. \\ 
+　1つ目は, Leap Motionでは手や指の位置や方向, ジェスチャーなどを検知し, リアルタイムで入力操作ができるという点である. ジェスチャーは4種類あり, 以下に示す. 先にも述べたが今回のアプリケーションではサークルジェスチャーとスクリーンタップジェスチャーの2種類を検知する. \\
+\begin{itemize}
+ \item サークルジェスチャー：スクリーンに向かって円を描くジェスチャー(図 \ref{circle})
+ \item スクリーンタップジェスチャー：スクリーンに向かってタップするジェスチャー(図 \ref{sctap})
+ \item スワイプジェスチャー：スクリーン方向にスワイプするジェスチャー(図 \ref{swipe})
+ \item キータップジェスチャー：Leap Motion方向にタップするジェスチャー(図 \ref{keytap})
+\end{itemize}
+
+\begin{figure}[H]
+ \begin{minipage}{0.5\hsize}
+  \begin{center}
+  \includegraphics[width=50mm]{./img/Circle.png}
+  \end{center}
+  \caption{サークルジェスチャー}
+  \label{circle}
+ \end{minipage}
+ \begin{minipage}{0.5\hsize}
+  \begin{center}
+  \includegraphics[width=50mm]{./img/ScTap.png}
+  \end{center}
+  \caption{スクリーンタップジェスチャー}
+  \label{sctap}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+ \begin{minipage}{0.5\hsize}
+  \begin{center}
+  \includegraphics[width=50mm]{./img/Swipe.png}
+  \end{center}
+  \caption{スワイプジェスチャー}
+  \label{swipe}
+ \end{minipage}
+ \begin{minipage}{0.5\hsize}
+  \begin{center}
+  \includegraphics[width=50mm]{./img/KeyTap.png}
+  \end{center}
+  \caption{キータップジェスチャー}
+  \label{keytap}
+ \end{minipage}
+\end{figure}
+
+
+　2つ目は, 指の曲げを判定できるので, 入力パターンが豊富であることがいえる. Leap Motionはどの指が曲げられているか, 曲げられている本数は何本か, どのくらい曲げられているか判定することができる. また, 右手と左手の判定もできるので, 以上のことを使えば入力パターンを増やすことが可能である. \\
+　3つ目は, Leap Motionをキーボードやマウスなどの入力装置と比較したとき, 音を出さずに入力できるという利点がある. キーボードやマウスにはボタンがあり, 押すとカチッと音がなる. しかし, Leap Motionは指の曲げやジェスチャー等が入力操作として扱われるので音が出ることはない. \\
 　一方で, Leap Motionの欠点として次の2つのことを述べる. ほにゃららほにゃららほにゃららほにゃららほにゃらら.\\
 　1つ目は, センサに不得意な方向がある点である. ほにゃららほにゃららほにゃららほにゃららほにゃらら.\\
 　もう1つは, 複数接続が不可能な点がある. ほにゃららほにゃららほにゃららほにゃららほにゃらら.\\
