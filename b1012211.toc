@@ -7,7 +7,7 @@
 \contentsline {section}{\numberline {2.2}研究アプローチ}{2}
 \contentsline {chapter}{\numberline {第3章}関連研究}{3}
 \contentsline {section}{\numberline {3.1}クリッカー}{3}
-\contentsline {section}{\numberline {3.2}サイボウズLive}{3}
+\contentsline {section}{\numberline {3.2}サイボウズLive[] }{3}
 \contentsline {chapter}{\numberline {第4章}提案するアプリケーションの概要}{4}
 \contentsline {section}{\numberline {4.1}提案するアプリケーションの特徴}{4}
 \contentsline {section}{\numberline {4.2}クライアント側のプログラムの役割}{4}

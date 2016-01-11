@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.7.8)  8 JAN 2016 17:55
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.7.8)  11 JAN 2016 15:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -146,7 +146,14 @@ LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
 
 ]
 第 3 章
-[3
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 130.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 130.
+ [3
 
 ]
 第 4 章
@@ -198,12 +205,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 813 strings out of 493800
- 9737 string characters out of 6151525
+ 830 strings out of 493800
+ 10042 string characters out of 6151525
  70934 words of memory out of 5000000
- 4305 multiletter control sequences out of 15000+600000
+ 4319 multiletter control sequences out of 15000+600000
  17903 words of font info for 69 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  25i,7n,22p,610b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on b1012211.dvi (20 pages, 32040 bytes).
+Output written on b1012211.dvi (20 pages, 34240 bytes).
