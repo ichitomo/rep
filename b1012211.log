@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.7.8)  11 JAN 2016 16:09
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.7.8)  11 JAN 2016 16:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -159,26 +159,24 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 第 4 章
 [4
 
-] [5]
+] [5] [6]
 File: ./img/installer.png Graphic file (type bmp)
  <./img/installer.png>
 File: ./img/setting.png Graphic file (type bmp)
- <./img/setting.png> [6]
+ <./img/setting.png> [7]
 File: ./img/Lset.png Graphic file (type bmp)
- <./img/Lset.png> [7]
-[8]
+ <./img/Lset.png>
+[8] [9]
 第 5 章
-[9
-
-]
-第 6 章
 [10
 
 ]
-第 7 章
+第 6 章
 [11
 
-] [12
+]
+第 7 章
+[12
 
 ] [13
 
@@ -186,25 +184,24 @@ File: ./img/Lset.png Graphic file (type bmp)
 
 ] [15
 
+] [16
+
 ] (./b1012211.lof)
 \tf@lof=\write4
 \openout4 = `b1012211.lof'.
 
- [16
+ [17
 
 ] (./b1012211.lot)
 \tf@lot=\write5
 \openout5 = `b1012211.lot'.
 
- [17
+ [18
 
 ]
 (./b1012211.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
@@ -216,4 +213,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  25i,7n,22p,610b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on b1012211.dvi (20 pages, 35884 bytes).
+Output written on b1012211.dvi (21 pages, 38900 bytes).
