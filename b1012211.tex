@@ -19,7 +19,7 @@
 \etitle{Title in English\\
 --- one two three four five six seven eight nine ten ---
 }% 論文の英文タイトル
-%
+%q
 \htitle{Short Title in English}   % ヘッダー用の論文の短縮英文タイトル
 %     必ず1行に収まるように英文タイトルを短縮する．
 %
@@ -84,13 +84,18 @@ Keyrods1, Keyword2, Keyword3, Keyword4, Keyword5
 % 以下に背景，関連する環境，状況，技術に関する概要を記述．
 
 %ここはneeds
-学制百年史 [1] によると日本における大学の誕生は明治時代に遡る.一斉授業の場において,教師は知識を与え学生はそれを吸収するというモデルに基づく. こうした場において, 一部の学生には頬杖をついたり, 居眠りをしたりなどが散見される. その原因として, 日々の生活の疲れだけでなく, 教師の説明が理解できず, 授業についていけないなどのストレスが挙げられる. こうした学生には他の学生に比べて学習意欲が低下しているといえる.
+学制百年史 [1] によると日本における大学の誕生は明治時代に遡る.一斉授業の場において,教師は知識を与え学生はそれを吸収するというモデルに基づく. こうした場において, 一部の学生には頬杖をついたり, 居眠りをしたりなどが散見される. その原因として, 日々の生活の疲れだけでなく, 教師の説明が理解できず, 授業についていけないなどのストレスが挙げられる. こうした学生には他の学生に比べて学習意欲が低下しているといえる.\\
 %ゼミでもカバーできるということを記述
+大学のゼミにおいても同じである. 話し手が一方的に先に話し, 聞き手が質問...-
+
+
+%一斉授業の形態として, 教師という話し手に対し,, 学生が聞き手である. 
+%ゼミでの教師か学生が話し手でその他の学生と
 
 %ここはseeds、技術的な変化
 %新しいデバイス, ネットワークインフラの登場　→　学校内でLANが普及しネットが...
 % 									　 →　LeapMotionを使う、PC、タブレット端末等を使うようになった
-
+近年では, Leap Motionなどの新しいデバイスの登場や学校内でのLANが普及により, PCが身近なものになってきている. 
 
 
 \section{目的}
@@ -128,7 +133,7 @@ Keyrods1, Keyword2, Keyword3, Keyword4, Keyword5
 %どのように使うのかを記述
 %本システムとの違いを描く
 %画像の挿入
-
+\subsection{提案するシステムとの違い}
 
 \section{サイボウズLive[] }
 
@@ -141,7 +146,7 @@ Keyrods1, Keyword2, Keyword3, Keyword4, Keyword5
 %主な機能
 %導入事例とか...
 
-サイボウズLiveはサイボウズ社が開発した意思決定ツールである. 
+サイボウズLive(\ref{cybozu})はサイボウズ社が開発した意思決定ツールである. 
 主な機能として、以下の5つが紹介されている.
 \begin{itemize}
  \item タイムライン：メンバーに聞きたいこと、伝えたいことを書く
@@ -155,8 +160,18 @@ Keyrods1, Keyword2, Keyword3, Keyword4, Keyword5
 　2つ目は,  複数人でも1対1でもチャットが出来る点である. 複数人のメンバーを指定して, チャットスペースを作成できる. また, サイボウズLive上で知人と繋がると, 自動的に1対1のチャットスペースが作成されるので, 簡単にチャットのやりとりをスタートできる. \\
 　3つ目は,  グループ機能と併用すれば, 情報の整理が楽になるという点である. チャットのやりとりで決定したことは, 先に記述したToDoリストに登録しておくことができる. \\
 %本システムとの違いを描く
+\subsection{提案するシステムとの違い}
+
 
 %画像の挿入
+\begin{figure}[H]
+ \begin{center}
+  \includegraphics[width=100mm]{./img/cybozulive.png}
+ \end{center}
+ \caption{サイボウズLive}
+ \label{cybozu}
+\end{figure}
+
 
 %--------------------------------------------------------------------
 \chapter{提案するアプリケーションの概要}
@@ -295,67 +310,6 @@ Leap Motion(図 \ref{LeapMotion} )とはアメリカのLeap Motion社が2013年�
  \label{Leapdoc}
 \end{figure}
 
-\subsubsection{Leap Motionを使用するために}
-%インストール方法を記述
-Leap Motionを使用するために, まず自身のPCにインストーラがインストールされていなければならない. ここではその手順を示す.\\
-%置き方、必要なこと、設定方法などを記述
-%必要なこと
-%インストーラをダウンロード
-%解凍　→　こうなったらOK
-
-%設定方法
-%操作の高さの調節、道具、etc...
-
-%置き方
-%パソコンに対して垂直に置くようにする　←　図が必要！！
-%注意ごと（一度手をさし出した向きを変えないこと、できるだけ触れないこと）
-
-Leap Motionを使うためには、3つの手順が必要である. 
-\begin{enumerate}
- \item インストーラを公式ホームページのセットアップ(図 \ref{setup})からダウンロードする.
- \item ダウンロードしたものを解凍する. 図 \ref{install} のような画面が表示されるので, 指示に従ってインストールする. 
- \item メニューバーにアイコン(図 \ref{setting} )が表示されていたら完了. 
-\end{enumerate}
-
-\subsubsection{Leap Motionを使用する前の確認事項}
-Leap Motionのアプリケーションを使用する前に確認しておくべきことを２つあげる. 以下に述べることはLeap Motionのアイコン(図 \ref{setting})から設定を選択しLeap Motionの設定画面(図\ref{Lset})から確認することができる. これらの設定後, Visualizer等で確認するとなお良い. \\
-　1つは, 操作の高さを調節しておくことである. Leap Motionでは自動調節機能があり, 操作の高さが可変になるが, 初めてLeap Motion使うとこれに気づきにくい. 実際に使ってもらい, 手が疲れるという声があった. ユーザーによって使いやすさに違いが出るので確認しておくべきである. \\
-　もう1つは, 道具の設定がオフになっているかどうかを確認することである. Leap Motionではペンなど棒状の道具を検知できる. 今回のアプリケーションでは, 道具を使って操作することを想定しなかったため, 道具の検知を行っていない. もし, 道具を使ってのアプリケーションを製作する場合では, チェックされていないと検知できないため確認する必要がある. \\
-
-\begin{figure}[H]
- \begin{center}
-  \includegraphics[width=100mm]{./img/setup.png}
- \end{center}
- \caption{Leap Motionのセットアップ}
- \label{setup}
-\end{figure}
-
-\begin{figure}[H]
- \begin{center}
-  \includegraphics[width=100mm]{./img/installer.png}
- \end{center}
- \caption{インストール画面}
- \label{install}
-\end{figure}
-
-\begin{figure}[H]
- \begin{center}
-  \includegraphics[width=100mm]{./img/setting.png}
- \end{center}
- \caption{Leap Motionのアイコン}
- \label{setting}
-\end{figure}
-
-\begin{figure}[H]
- \begin{center}
-  \includegraphics[width=100mm]{./img/Lset.png}
- \end{center}
- \caption{Leap Motionの設定画面}
- \label{Lset}
-\end{figure}
-
-\subsubsection{Leap MotionSDKのダウンロード}
-Leap Motionを使ったアプリケーションを開発するためにSDKを自分のPCにインストールする必要がある. Leap MotionSDKもLeap Motionインストーラーと同様に, 公式ホームページのセットアップ(図 \ref{setup})よりダウンロードできる. 
 
 
 \subsubsection{Leap Motionの評価}
@@ -449,7 +403,7 @@ Leap Motionの入力装置としての特性を追求した. ここではLeap Mo
 
 %このプログラムはどちらの言語にとっても，有利な要素はない，このことを反映して．
 
-\subsection{評価方法について}
+\subsection{目的}
 
 %Java言語との比較では，惨敗であり，FUNは2倍の記述量を必要とした．しかし，これは，JavaのもつパッケージIKURAが非常に強力であるためで，同一機能をもつライブラリを用意することにより，FUNにも同様の能力を持たせることができることが判明した．
 
@@ -463,7 +417,50 @@ Leap Motionの入力装置としての特性を追求した. ここではLeap Mo
 
 %Java言語との比較では，惨敗であり，FUNは2倍の記述量を必要とした．しかし，これは，JavaのもつパッケージIKURAが非常に強力であるためで，同一機能をもつライブラリを用意することにより，FUNにも同様の能力を持たせることができることが判明した．
 
-\section{アンケート}
+\section{方法}
+\subsection{日時と場所}
+
+本実験は丸月丸日, 公立はこだて未来大学の何処何処でおこなった. 
+
+\subsection{被験者}
+被験者は公立はこだて未来大学の大学生6人で, 男性が何人, 女性が何人である. 
+
+\subsection{道具}
+必要な道具は表\ref{tools}のとおりである
+
+\begin{table}[H]
+\begin{center}
+\caption{実験器具}
+  \begin{tabular}{ll}
+   \hline
+   道具名 & 台数\\
+\hline
+被験者用Macbook & 6台\\
+\hline
+Leap Motion & 6台\\ 
+  \hline
+表示用のMacbook & 1台\\ 
+  \hline
+  サーバー & 1台\\ 
+  \hline
+  \end{tabular}
+  \label{tools}
+  \end{center}
+\end{table}
+
+\subsection{配置}
+道具は図のように配置する. \\
+
+ここに図を入れる.\\
+
+表示用のは話し手に見えるように配置する.
+
+\subsection{手順}
+まず, 被験者全員にクライアント側のプログラムを配布する.\\
+サーバー側のプログラムを起動する. \\
+被験者はゼミが始まると同時にプログラムを起動してもらう. \\
+被験者には伝えたいメッセージがあるときにアプリケーションを使って発信してもらう. \\
+
 
 %\subsection{初心者}
 
@@ -528,8 +525,67 @@ Leap Motionの入力装置としての特性を追求した. ここではLeap Mo
 
 %--------------------------------------------------------------------
 \chapter*{付録その2}
+\subsubsection{Leap Motionを使用するために}
+%インストール方法を記述
+Leap Motionを使用するために, まず自身のPCにインストーラがインストールされていなければならない. ここではその手順を示す.\\
+%置き方、必要なこと、設定方法などを記述
+%必要なこと
+%インストーラをダウンロード
+%解凍　→　こうなったらOK
 
-付録その2(関連資料など)を必要があれば載せる
+%設定方法
+%操作の高さの調節、道具、etc...
+
+%置き方
+%パソコンに対して垂直に置くようにする　←　図が必要！！
+%注意ごと（一度手をさし出した向きを変えないこと、できるだけ触れないこと）
+
+Leap Motionを使うためには、3つの手順が必要である. 
+\begin{enumerate}
+ \item インストーラを公式ホームページのセットアップ(図 \ref{setup})からダウンロードする.
+ \item ダウンロードしたものを解凍する. 図 \ref{install} のような画面が表示されるので, 指示に従ってインストールする. 
+ \item メニューバーにアイコン(図 \ref{setting} )が表示されていたら完了. 
+\end{enumerate}
+
+\subsubsection{Leap Motionを使用する前の確認事項}
+Leap Motionのアプリケーションを使用する前に確認しておくべきことを２つあげる. 以下に述べることはLeap Motionのアイコン(図 \ref{setting})から設定を選択しLeap Motionの設定画面(図\ref{Lset})から確認することができる. これらの設定後, Visualizer等で確認するとなお良い. \\
+　1つは, 操作の高さを調節しておくことである. Leap Motionでは自動調節機能があり, 操作の高さが可変になるが, 初めてLeap Motion使うとこれに気づきにくい. 実際に使ってもらい, 手が疲れるという声があった. ユーザーによって使いやすさに違いが出るので確認しておくべきである. \\
+　もう1つは, 道具の設定がオフになっているかどうかを確認することである. Leap Motionではペンなど棒状の道具を検知できる. 今回のアプリケーションでは, 道具を使って操作することを想定しなかったため, 道具の検知を行っていない. もし, 道具を使ってのアプリケーションを製作する場合では, チェックされていないと検知できないため確認する必要がある. \\
+
+\begin{figure}[H]
+ \begin{center}
+  \includegraphics[width=100mm]{./img/setup.png}
+ \end{center}
+ \caption{Leap Motionのセットアップ}
+ \label{setup}
+\end{figure}
+
+\begin{figure}[H]
+ \begin{center}
+  \includegraphics[width=100mm]{./img/installer.png}
+ \end{center}
+ \caption{インストール画面}
+ \label{install}
+\end{figure}
+
+\begin{figure}[H]
+ \begin{center}
+  \includegraphics[width=100mm]{./img/setting.png}
+ \end{center}
+ \caption{Leap Motionのアイコン}
+ \label{setting}
+\end{figure}
+
+\begin{figure}[H]
+ \begin{center}
+  \includegraphics[width=100mm]{./img/Lset.png}
+ \end{center}
+ \caption{Leap Motionの設定画面}
+ \label{Lset}
+\end{figure}
+
+\subsubsection{Leap MotionSDKのダウンロード}
+Leap Motionを使ったアプリケーションを開発するためにSDKを自分のPCにインストールする必要がある. Leap MotionSDKもLeap Motionインストーラーと同様に, 公式ホームページのセットアップ(図 \ref{setup})よりダウンロードできる. 
 
 %--------------------------------------------------------------------
 % 図一覧
