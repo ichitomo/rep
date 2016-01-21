@@ -190,12 +190,26 @@ Keyrods1, Keyword2, Keyword3, Keyword4, Keyword5
 %ユーザ視点での特徴を丁寧に箇条書き
 %機能で説明する
 このアプリケーションの特徴は, 主に2つある.\\
-　1つ目は, Leap Motionを使ってリアルタイムに入力操作を行うことである. ほにゃらららほにゃらららほにゃらららほにゃらららほにゃららら\\
+　1つ目は, Leap Motionを使ってリアルタイムに入力操作を行うことである. \\
 %そもそもの経緯がLeap Motionを使うことにあった
-　2つ目は, クライアント側とサーバー側の二つのプログラムに分かれていることである. このアプリケーションでは, クライアント側とサーバー側間のデータを送受信する手段として, ソケット通信を行った. 
+　2つ目は, クライアント側とサーバー側の二つのプログラムに分かれていることである. このアプリケーションでは, クライアント側とサーバー側間のデータを送受信する手段として, ソケット通信を行った. \\
+　このアプリケーションの機能は以下のものがある.
+\begin{itemize}
+ \item データを発信する
+ \item 発信されたデータを集計する
+ \item 集計したデータにそって描写処理を変える
+\end{itemize}
 
 %3つ目は,
 %つは,
+\subsubsection{全体像}
+\begin{figure}[H]
+ \begin{center}
+  \includegraphics[width=100mm]{./img/zentai.png}
+ \end{center}
+ \caption{全体像}
+ \label{zentai}
+\end{figure}
 
 \section{クライアント側のプログラムの役割}
 %どういうメッセージなのか、なぜこのメッセージなのか
@@ -224,6 +238,7 @@ Keyrods1, Keyword2, Keyword3, Keyword4, Keyword5
 
 \subsubsection{クライアント側のUI}
 クライアント側のUIはこのようになっております。クライアント側のUIはこういう意図で作られました。それぞれのメッセージとメッセージナンバーの対応は以下のようになっております。クライアント側のUIはこのようになっております。クライアント側のUIはこういう意図で作られました。それぞれのメッセージとメッセージナンバーの対応は以下のようになっております。クライアント側のUIはこのようになっております。クライアント側のUIはこういう意図で作られました。それぞれのメッセージとメッセージナンバーの対応は以下のようになっております。クライアント側のUIはこのようになっております。クライアント側のUIはこういう意図で作られました。それぞれのメッセージとメッセージナンバーの対応は以下のようになっております。
+
 
 
 
@@ -434,17 +449,17 @@ Leap Motionの入力装置としての特性を追求した. ここではLeap Mo
   \begin{tabular}{ll}
    \hline
    道具名 & 台数\\
-\hline
-被験者用Macbook & 6台\\
-\hline
-Leap Motion & 6台\\ 
-  \hline
-表示用のMacbook & 1台\\ 
-  \hline
+   \hline
+   被験者用Macbook & 6台\\
+   \hline
+   Leap Motion & 6台\\ 
+   \hline
+   表示用のMacbook & 1台\\ 
+   \hline
   サーバー & 1台\\ 
-  \hline
-  \end{tabular}
-  \label{tools}
+   \hline
+   \end{tabular}
+   \label{tools}
   \end{center}
 \end{table}
 
