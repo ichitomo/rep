@@ -13,34 +13,33 @@
 \contentsline {section}{\numberline {4.1}提案するアプリケーションの特徴}{5}
 \contentsline {subsubsection}{全体像}{6}
 \contentsline {section}{\numberline {4.2}クライアント側のプログラムの役割}{6}
-\contentsline {subsubsection}{クライアント側から発信する値について}{6}
-\contentsline {subsubsection}{クライアント側のUI}{7}
-\contentsline {subsubsection}{クライアント側からメッセージを発信する手順について}{7}
-\contentsline {section}{\numberline {4.3}サーバー側のプログラムの役割}{7}
-\contentsline {subsubsection}{メッセージナンバーの集計}{7}
-\contentsline {subsubsection}{描写処理について}{7}
+\contentsline {subsubsection}{発信する手順}{6}
+\contentsline {subsubsection}{クライアント側から発信する値について}{7}
+\contentsline {section}{\numberline {4.3}サーバー側のプログラムの役割}{8}
+\contentsline {subsubsection}{メッセージナンバーの集計}{8}
+\contentsline {subsubsection}{描写処理について}{8}
 \contentsline {section}{\numberline {4.4}実装方法}{8}
 \contentsline {subsection}{\numberline {4.4.1}言語・ツール・開発環境}{8}
 \contentsline {subsection}{\numberline {4.4.2}Cinderフレームワークについて}{8}
-\contentsline {subsubsection}{openFrameworksとの違い}{8}
+\contentsline {subsubsection}{openFrameworksとの違い}{9}
 \contentsline {subsection}{\numberline {4.4.3}Leap Motionについて}{9}
 \contentsline {subsubsection}{Leap Motionの評価}{10}
-\contentsline {subsubsection}{ソケット通信について}{11}
-\contentsline {chapter}{\numberline {第5章}実験と評価}{12}
-\contentsline {section}{\numberline {5.1}実験について}{12}
-\contentsline {subsection}{\numberline {5.1.1}目的}{12}
-\contentsline {section}{\numberline {5.2}方法}{12}
-\contentsline {subsection}{\numberline {5.2.1}日時と場所}{12}
-\contentsline {subsection}{\numberline {5.2.2}被験者}{12}
-\contentsline {subsection}{\numberline {5.2.3}道具}{12}
-\contentsline {subsection}{\numberline {5.2.4}配置}{12}
-\contentsline {subsection}{\numberline {5.2.5}手順}{13}
-\contentsline {chapter}{\numberline {第6章}考察}{14}
-\contentsline {section}{\numberline {6.1}評価結果}{14}
-\contentsline {section}{\numberline {6.2}評価結果}{14}
-\contentsline {chapter}{\numberline {第7章}結論と今後の展開}{15}
-\contentsline {section}{\numberline {7.1}まとめ}{15}
-\contentsline {section}{\numberline {7.2}今後の方針}{15}
-\contentsline {subsubsection}{Leap Motionを使用するために}{19}
-\contentsline {subsubsection}{Leap Motionを使用する前の確認事項}{19}
-\contentsline {subsubsection}{Leap MotionSDKのダウンロード}{22}
+\contentsline {subsubsection}{ソケット通信について}{12}
+\contentsline {chapter}{\numberline {第5章}実験と評価}{13}
+\contentsline {section}{\numberline {5.1}実験について}{13}
+\contentsline {subsection}{\numberline {5.1.1}目的}{13}
+\contentsline {section}{\numberline {5.2}方法}{13}
+\contentsline {subsection}{\numberline {5.2.1}日時と場所}{13}
+\contentsline {subsection}{\numberline {5.2.2}被験者}{13}
+\contentsline {subsection}{\numberline {5.2.3}道具}{13}
+\contentsline {subsection}{\numberline {5.2.4}配置}{13}
+\contentsline {subsection}{\numberline {5.2.5}手順}{14}
+\contentsline {chapter}{\numberline {第6章}考察}{15}
+\contentsline {section}{\numberline {6.1}評価結果}{15}
+\contentsline {section}{\numberline {6.2}評価結果}{15}
+\contentsline {chapter}{\numberline {第7章}結論と今後の展開}{16}
+\contentsline {section}{\numberline {7.1}まとめ}{16}
+\contentsline {section}{\numberline {7.2}今後の方針}{16}
+\contentsline {subsubsection}{Leap Motionを使用するために}{20}
+\contentsline {subsubsection}{Leap Motionを使用する前の確認事項}{20}
+\contentsline {subsubsection}{Leap MotionSDKのダウンロード}{23}
