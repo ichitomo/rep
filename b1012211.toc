@@ -11,19 +11,18 @@
 \contentsline {subsection}{\numberline {3.2.1}提案するシステムとの違い}{4}
 \contentsline {chapter}{\numberline {第4章}提案するアプリケーションの概要}{5}
 \contentsline {section}{\numberline {4.1}提案するアプリケーションの特徴}{5}
-\contentsline {subsubsection}{全体像}{6}
-\contentsline {section}{\numberline {4.2}クライアント側のプログラムの役割}{6}
-\contentsline {subsubsection}{発信する手順}{6}
-\contentsline {subsubsection}{クライアント側から発信する値について}{7}
-\contentsline {section}{\numberline {4.3}サーバー側のプログラムの役割}{8}
-\contentsline {subsubsection}{描写処理について}{8}
+\contentsline {section}{\numberline {4.2}クライアント側のプログラムの役割}{5}
+\contentsline {subsubsection}{発信する手順}{5}
+\contentsline {subsubsection}{クライアント側から発信する値について}{6}
+\contentsline {section}{\numberline {4.3}サーバー側のプログラムの役割}{7}
+\contentsline {subsubsection}{描写処理について}{7}
 \contentsline {subsubsection}{メッセージナンバーの集計}{9}
-\contentsline {section}{\numberline {4.4}実装方法}{10}
-\contentsline {subsection}{\numberline {4.4.1}言語・ツール・開発環境}{10}
+\contentsline {section}{\numberline {4.4}実装方法}{9}
+\contentsline {subsection}{\numberline {4.4.1}言語・ツール・開発環境}{9}
 \contentsline {subsection}{\numberline {4.4.2}Cinderフレームワークについて}{10}
 \contentsline {subsubsection}{openFrameworksとの違い}{10}
-\contentsline {subsection}{\numberline {4.4.3}Leap Motionについて}{11}
-\contentsline {subsubsection}{Leap Motionの評価}{12}
+\contentsline {subsection}{\numberline {4.4.3}Leap Motionについて}{10}
+\contentsline {subsubsection}{Leap Motionの評価}{11}
 \contentsline {subsubsection}{ソケット通信について}{13}
 \contentsline {chapter}{\numberline {第5章}実験と評価}{14}
 \contentsline {section}{\numberline {5.1}実験について}{14}
