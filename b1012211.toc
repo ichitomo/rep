@@ -31,8 +31,10 @@
 \contentsline {subsection}{\numberline {5.2.1}日時と場所}{14}
 \contentsline {subsection}{\numberline {5.2.2}被験者}{14}
 \contentsline {subsection}{\numberline {5.2.3}道具}{14}
-\contentsline {subsection}{\numberline {5.2.4}配置}{14}
-\contentsline {subsection}{\numberline {5.2.5}手順}{15}
+\contentsline {subsection}{\numberline {5.2.4}手順}{14}
+\contentsline {subsection}{\numberline {5.2.5}アンケート項目}{15}
+\contentsline {subsubsection}{五段階評価}{15}
+\contentsline {subsubsection}{自由記述}{15}
 \contentsline {chapter}{\numberline {第6章}考察}{16}
 \contentsline {section}{\numberline {6.1}評価結果}{16}
 \contentsline {section}{\numberline {6.2}評価結果}{16}
