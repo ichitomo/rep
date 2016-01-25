@@ -159,10 +159,6 @@ Keyrods1, Keyword2, Keyword3, Keyword4, Keyword5
 　1つ目は, PCでもスマートフォンでもメッセージがすぐ届く点である. サイボウズLiveのチャット機能はPCだけでなく, スマートフォンでも使うことできる. 投稿したコメントは相手の画面にただちに用事されるので, オンラインのミーティングがスムーズに行える. \\
 　2つ目は,  複数人でも1対1でもチャットが出来る点である. 複数人のメンバーを指定して, チャットスペースを作成できる. また, サイボウズLive上で知人と繋がると, 自動的に1対1のチャットスペースが作成されるので, 簡単にチャットのやりとりをスタートできる. \\
 　3つ目は,  グループ機能と併用すれば, 情報の整理が楽になるという点である. チャットのやりとりで決定したことは, 先に記述したToDoリストに登録しておくことができる. \\
-%本システムとの違いを描く
-\subsection{提案するシステムとの違い}
-
-
 %画像の挿入
 \begin{figure}[H]
  \begin{center}
@@ -171,6 +167,11 @@ Keyrods1, Keyword2, Keyword3, Keyword4, Keyword5
  \caption{サイボウズLive}
  \label{cybozu}
 \end{figure}
+
+%本システムとの違いを描く
+\subsection{提案するシステムとの違い}
+
+
 
 
 %--------------------------------------------------------------------
@@ -202,14 +203,6 @@ Keyrods1, Keyword2, Keyword3, Keyword4, Keyword5
 
 %3つ目は,
 %つは,
-\subsubsection{全体像}
-\begin{figure}[H]
- \begin{center}
-  \includegraphics[width=100mm]{./img/zentai.png}
- \end{center}
- \caption{全体像}
- \label{zentai}
-\end{figure}
 
 \section{クライアント側のプログラムの役割}
 クライアント側は, 聞き手が発信したいメッセージを発信するためのものである. 
@@ -439,7 +432,16 @@ Leap Motionの入力装置としての特性を追求した. ここではLeap Mo
 \subsubsection{ソケット通信について}
 %ソケット通信とは。なぜ、どういう意図で通信するのか
 %ソケット通信:ソケットというプログラム間でデータの送受信を行うための標準的なプログラムインタフェース(API)を使ってプログラム同士で通信を行うことを指す
+%\subsubsection{全体像}
+クライアント側プログラムからサーバー側プログラムへ値を送受信する手段としてソケット通信を行った. 
 
+\begin{figure}[H]
+ \begin{center}
+  \includegraphics[width=100mm]{./img/zentai.png}
+ \end{center}
+ \caption{全体像}
+ \label{zentai}
+\end{figure}
 
 %--------------------------------------------------------------------
 %全体を通して(1/12)
