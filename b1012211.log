@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.7.8)  26 JAN 2016 02:48
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.7.8)  26 JAN 2016 21:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -111,9 +111,9 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 50.
  [0]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 72.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 76.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 72.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 76.
  (./b1012211.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 2.
@@ -146,13 +146,13 @@ LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
 
 ]
 第 3 章
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 154.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 158.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 154.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
 File: ./img/cybozulive.png Graphic file (type bmp)
 
 <./img/cybozulive.png> [3
@@ -171,7 +171,7 @@ File: ./img/svcircle.png Graphic file (type bmp)
 File: ./img/svmessagearea.png Graphic file (type bmp)
 
 <./img/svmessagearea.png>
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 274--288
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 278--292
 []$[]$ $[]$ 
  []
 
@@ -188,7 +188,7 @@ File: ./img/Circle.png Graphic file (type bmp)
  <./img/Circle.png>
 File: ./img/ScTap.png Graphic file (type bmp)
  <./img/ScTap.png>
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 384--398
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 388--402
 []$[]$ $[]$ 
  []
 
@@ -197,7 +197,7 @@ File: ./img/Swipe.png Graphic file (type bmp)
  <./img/Swipe.png>
 File: ./img/KeyTap.png Graphic file (type bmp)
  <./img/KeyTap.png>
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 401--415
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 405--419
 []$[]$ $[]$ 
  []
 
@@ -260,4 +260,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  25i,7n,22p,610b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on b1012211.dvi (30 pages, 60356 bytes).
+Output written on b1012211.dvi (30 pages, 61128 bytes).
