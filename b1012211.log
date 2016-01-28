@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.7.8)  28 JAN 2016 11:53
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex 2014.7.8)  28 JAN 2016 14:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -69,61 +69,61 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box42
 ) (./b1012211.aux
 
-LaTeX Warning: Label `A1' multiply defined.
+LaTeX Warning: Label `leap' multiply defined.
 
 
-LaTeX Warning: Label `A1' multiply defined.
+LaTeX Warning: Label `leap' multiply defined.
 
 
-LaTeX Warning: Label `A1' multiply defined.
+LaTeX Warning: Label `leap' multiply defined.
 
 )
 \openout1 = `b1012211.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 46.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 46.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 46.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 46.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 46.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 46.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 46.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 46.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 45.
  [1
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 50.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 50.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 49.
  [0]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 76.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 76.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 74.
  (./b1012211.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 2.
@@ -131,45 +131,41 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-
-
-LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 43.
-
-
-LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 43.
-
-[1
-
-])
+)
 \tf@toc=\write3
 \openout3 = `b1012211.toc'.
 
- [2]
+
+
+LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
+(Font)              using `JT1/mc/m/n' instead on input line 74.
+
+
+LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
+(Font)              using `JY1/mc/m/n' instead on input line 74.
+
+[1
+
+]
 第 1 章
 [1
 
 ]
 第 2 章
-[2
-
-]
-第 3 章
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 158.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 153.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 153.
 File: ./img/cybozulive.png Graphic file (type bmp)
 
-<./img/cybozulive.png> [3
+<./img/cybozulive.png> [2
 
-] [4]
-第 4 章
-[5
+] [3]
+第 3 章
+[4
 
 ]
 File: ./img/clseni1.png Graphic file (type bmp)
@@ -177,36 +173,36 @@ File: ./img/clseni1.png Graphic file (type bmp)
 File: ./img/clseni2.png Graphic file (type bmp)
  <./img/clseni2.png>
 File: ./img/clseni3.png Graphic file (type bmp)
- <./img/clseni3.png> [6]
+ <./img/clseni3.png> [5]
 File: ./img/sendCL.png Graphic file (type bmp)
 
 <./img/sendCL.png>
 File: ./img/server.png Graphic file (type bmp)
- <./img/server.png> [7]
+ <./img/server.png> [6]
 File: ./img/svcircle.png Graphic file (type bmp)
  <./img/svcircle.png>
 File: ./img/svmessagearea.png Graphic file (type bmp)
 
 <./img/svmessagearea.png>
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 307--321
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 300--314
 []$[]$ $[]$ 
  []
 
-[8]
+[7]
 File: ./img/marionet.png Graphic file (type bmp)
- <./img/marionet.png> [9]
+ <./img/marionet.png> [8]
 File: ./img/api.png Graphic file (type bmp)
- <./img/api.png> [10]
+ <./img/api.png> [9]
 File: ./img/LeapMotion.png Graphic file (type bmp)
  <./img/LeapMotion.png>
 File: ./img/Leapdoc.png Graphic file (type bmp)
 
-<./img/Leapdoc.png> [11]
+<./img/Leapdoc.png> [10]
 File: ./img/Circle.png Graphic file (type bmp)
  <./img/Circle.png>
 File: ./img/ScTap.png Graphic file (type bmp)
  <./img/ScTap.png>
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 417--431
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 410--424
 []$[]$ $[]$ 
  []
 
@@ -214,22 +210,22 @@ File: ./img/Swipe.png Graphic file (type bmp)
 <./img/Swipe.png>
 File: ./img/KeyTap.png Graphic file (type bmp)
  <./img/KeyTap.png>
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 434--448
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 427--441
 []$[]$ $[]$ 
  []
 
-[12]
+[11]
 File: ./img/LeapAngle.png Graphic file (type bmp)
- <./img/LeapAngle.png> [13]
-第 5 章
-[14
+ <./img/LeapAngle.png> [12]
+第 4 章
+[13
 
-] [15]
+] [14]
 File: ./img/question1.png Graphic file (type bmp)
  <./img/question1.png>
 File: ./img/question2.png Graphic file (type bmp)
  <./img/question2.png>
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 587--601
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 580--594
 []$[]$ $[]$ 
  []
 
@@ -237,7 +233,7 @@ File: ./img/question3.png Graphic file (type bmp)
 <./img/question3.png>
 File: ./img/question4.png Graphic file (type bmp)
  <./img/question4.png>
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 604--618
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 597--611
 []$[]$ $[]$ 
  []
 
@@ -245,7 +241,7 @@ File: ./img/question5.png Graphic file (type bmp)
 <./img/question5.png>
 File: ./img/question6.png Graphic file (type bmp)
  <./img/question6.png>
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 621--635
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 614--628
 []$[]$ $[]$ 
  []
 
@@ -253,47 +249,75 @@ File: ./img/question7.png Graphic file (type bmp)
 <./img/question7.png>
 File: ./img/question8.png Graphic file (type bmp)
  <./img/question8.png>
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 638--652
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 631--645
 []$[]$ $[]$ 
  []
 
-[16] [17] [18] [19]
+[15] [16] [17] [18]
+第 5 章
+[19
+
+]
 第 6 章
 [20
 
-]
-第 7 章
-[21
-
-] [22
-
-] [23
-
-] [24
+] [21
 
 ]
+Overfull \hbox (135.36803pt too wide) in paragraph at lines 756--757
+[]\JY1/mc/m/n/10.95 学制百年史\OT1/cmr/m/n/10.95 , \JY1/mc/m/n/10.95 明治初期の
+高等教育\OT1/cmr/m/n/10.95 , http://www.mext.go.jp/b[]menu/hakusho/html/others/
+detail/1317598.htm,2015 
+ []
+
+
+Overfull \hbox (296.33633pt too wide) in paragraph at lines 757--758
+\OT1/cmr/m/n/10.95 http://www.keepad.com/jp/casestudies/docs/Comparison%20and%2
+0Evaluation%20of%20Clikers%20in%20the%20Interactive%20Classroom.pdf,
+ []
+
+[22
+
+]
+File: ./img/ank1.png Graphic file (type bmp)
+ <./img/ank1.png>
+File: ./img/ank2.png Graphic file (type bmp)
+ <./img/ank2.png> [23
+
+]
+File: ./img/ank3.png Graphic file (type bmp)
+ <./img/ank3.png> [24] [25]
 File: ./img/setup.png Graphic file (type bmp)
- <./img/setup.png> [25
 
-]
+<./img/setup.png>
 File: ./img/installer.png Graphic file (type bmp)
  <./img/installer.png>
-File: ./img/setting.png Graphic file (type bmp)
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 834--848
+[]$[]$ $[]$ 
+ []
 
-<./img/setting.png> [26]
+[26
+
+]
+File: ./img/setting.png Graphic file (type bmp)
+ <./img/setting.png>
 File: ./img/Lset.png Graphic file (type bmp)
- <./img/Lset.png> [27] [28] (./b1012211.lof [29
+ <./img/Lset.png>
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 851--865
+[]$[]$ $[]$ 
+ []
+
+[27] (./b1012211.lof [28
 
 ])
 \tf@lof=\write4
 \openout4 = `b1012211.lof'.
 
-
-[30] (./b1012211.lot)
+ [29] (./b1012211.lot)
 \tf@lot=\write5
 \openout5 = `b1012211.lot'.
 
- [31
+ [30
 
 ] (./b1012211.aux)
 
@@ -304,12 +328,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 909 strings out of 493800
- 11044 string characters out of 6151525
+ 920 strings out of 493800
+ 11144 string characters out of 6151525
  71934 words of memory out of 5000000
- 4372 multiletter control sequences out of 15000+600000
+ 4380 multiletter control sequences out of 15000+600000
  17903 words of font info for 69 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,7n,22p,610b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,7n,22p,792b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on b1012211.dvi (35 pages, 80664 bytes).
+Output written on b1012211.dvi (33 pages, 81548 bytes).
