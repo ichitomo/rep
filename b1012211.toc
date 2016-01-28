@@ -6,8 +6,8 @@
 \contentsline {subsection}{\numberline {2.1.1}提案するシステムとの違い}{2}
 \contentsline {section}{\numberline {2.2}サイボウズLive \cite {A3} }{2}
 \contentsline {subsection}{\numberline {2.2.1}提案するシステムとの違い}{3}
-\contentsline {chapter}{\numberline {第3章}提案するアプリケーションの概要}{4}
-\contentsline {section}{\numberline {3.1}提案するアプリケーションの特徴}{4}
+\contentsline {chapter}{\numberline {第3章}提案するシステムの概要}{4}
+\contentsline {section}{\numberline {3.1}提案するシステムの特徴}{4}
 \contentsline {section}{\numberline {3.2}クライアント側のプログラムの役割}{4}
 \contentsline {subsubsection}{メッセージを発信する手順}{4}
 \contentsline {subsubsection}{クライアント側から発信する値について}{5}

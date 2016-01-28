@@ -12,20 +12,20 @@
 
 % この部分に，タイトル・氏名などを書く．
 % タイトルなどの定義の始まり
-\jtitle{Leap Motionによる教育をインタラクティブにするシステムの提案\\
+\jtitle{Leap Motionによる教育をインタラクティブにする\\システムの提案\\
 %--- 一二三四五六七八九十 ---
 }  % 論文の和文タイトル
 %
 \etitle{Interactive system for education by leap motion sensor
 }% 論文の英文タイトル
 %q
-\htitle{Short Title in English}   % ヘッダー用の論文の短縮英文タイトル
+\htitle{Interactive system for education by leap motion sensor}   % ヘッダー用の論文の短縮英文タイトル
 %     必ず1行に収まるように英文タイトルを短縮する．
 %
 \jauthor{一ノ瀬 智太}     % 氏名(日本語)
 \eauthor{Tomohiro Ichinose }   % 氏名(英語)
 \jaffiliciation{情報アーキテクチャ学科} % 所属学科名(日本語)
-\eaffiliciation{Department of Complex Media Architecture} % 所属学科名(英語)
+\eaffiliciation{Information Architecture} % 所属学科名(英語)
 \studentnumber{1012211}   % 学籍番号
 \jadvisor{美馬 義亮}    % 正指導教員名(日本語)
 %\jcoadvisor{副指導 教員} % 副指導教員(日本語)がいる場合は
@@ -47,7 +47,7 @@
 %--------------------------------------------------------------------
 % 英文概要(250語程度)
 \begin{eabstract}
-Teachers use a blackboard and chalk in the field of school education. Students use pencil and notebook was mainstream. However, classes that use a personal computer and tablet devices have been introduced in recent years. Also, new devices appear. For example, It is Leap Motion and Ring, Smart Watch. Thus, user come to  not push button and wear devices. It is that the exchanges of the information from a teacher to a student are unilateral to be common when I compared the recent school education with the conventional thing. In this study, I assumed that use of leap motion when implement application which capable input method. It is not mouse and keyboard. In this study, the purpose is to implement an application which capable this function, and evaluate usefulness.
+Teachers use a blackboard and chalk in the classroom. Students has been used pencil and notebook. However, classes that use a personal computer and tablet devices have been introduced in recent years. Also, new devices has introduced. They are Leap Motion and Ring, Smart Watch. Thus, user come to  not push button and wear devices. It is that the exchanges of the information from a teacher to a student are unilateral to be common when I compared the recent school education with the conventional thing. In this study, I assumed that use of leap motion when implement application which capable input method. It is not mouse and keyboard. In this study, the purpose is to implement an application which capable this function, and evaluate usefulness.
 \end{eabstract}
 
 % 英文キーワード(5個程度をコンマ(,)で区切って羅列する)
@@ -86,7 +86,7 @@ Interaction, Leap Motion, Gesture
 % 以下に背景，関連する環境，状況，技術に関する概要を記述．
 
 %ここはneeds
-学制百年史\cite{A1} によると日本における大学の誕生は明治時代に遡る.一斉授業の場において,教師は知識を与え学生はそれを吸収するというモデルに基づく. こうした場において, 一部の学生には頬杖をついたり, 居眠りをしたりなどが散見される. その原因として, 日々の生活の疲れだけでなく, 教師の説明が理解できず, 授業についていけないなどのストレスが挙げられる. こうした学生には他の学生に比べて学習意欲が低下しているといえる.\\大学のゼミにおいても同じような状況があるといえる. 話し手が進捗報告や自分の考えを一方的に話し, 聞き手はそれに耳を傾ける. 
+学制百年史\cite{A1} によると日本における大学の誕生は明治時代に遡る. これらは一斉授業の場において,教師は知識を与え学生はそれを吸収するというモデルに基づいている. こうした場において, 一部の学生には頬杖をついたり, 居眠りをしたりすることなどが散見される. その原因として, 日々の生活の疲れだけでなく, 教師の説明が理解できず, 授業についていけないなどのストレスが挙げられる. こうした学生には他の学生に比べて学習意欲が低下しているといえる.\\大学のゼミにおいても同じような状況があるといえる. 話し手が進捗報告や自分の考えを一方的に話し, 聞き手はそれに耳を傾ける. 
 %ゼミでもカバーできるということを記述
 %一斉授業の形態として, 教師という話し手に対し,, 学生が聞き手である. 
 %ゼミでの教師か学生が話し手でその他の学生と
@@ -94,7 +94,7 @@ Interaction, Leap Motion, Gesture
 %ここはseeds、技術的な変化
 %新しいデバイス, ネットワークインフラの登場　→　学校内でLANが普及しネットが...
 % 									　 →　LeapMotionを使う、PC、タブレット端末等を使うようになった
-近年では, Leap MotionやRing, スマートウォッチなどの新しいデバイスの登場している. その結果, 今までマウスやキーボードで入力する方法以外にも, ジェスチャーを使って入力したりPCを操作できるようになった. また, 学校内でのLANや学外でのロボットコンテストなどが普及してきており,  PCやタブレット端末などが教育でも使われるようになってきたといえる. 
+近年では, Leap MotionやRing, スマートウォッチなどの新しいデバイスが登場している. その結果, 今までマウスやキーボードで入力する方法以外にも, ジェスチャーを使って入力したりPCを操作できるようになった. また, 学校内でのLANや学外でのロボットコンテストなどが普及してきており,  PCやタブレット端末などが教育でも使われるようになってきたといえる. 
 
 \section{研究目標}
 本研究では, 授業中やゼミの中で情報のやりとりが一方的に行われている問題に着目した. この問題を解決するために教師や発表者である話し手と, 話を聞く聞き手との間に双方向性をもたせ,  対話的な授業運営, ゼミの進行を図ることを研究目標とする. その方法として, Leap Motionというセンサが手や指の位置, 方向, 曲げ, ジェスチャー等を検知できるセンサを用いて, 双方向性を実現するアプリケーションを実装することを目的とする. 具体的には学生が授業中に抱いている「大きな声で話してほしい」や「もう一度説明してほしい」などのメッセージをLeap Motionで入力し,教師に伝えるということをめざす. この時, 話し手には話の邪魔をしないことや話し手が応答があるようにすることを前提とし, これを満たすアプリケーションの提案を目指す. 
@@ -133,7 +133,7 @@ Interaction, Leap Motion, Gesture
 %本システムとの違いを描く
 %画像の挿入
 \subsection{提案するシステムとの違い}
-クリッカーは教師が出した問題に対して学生が解答するためのツールであり, 学生側がメッセージを発信するツールではない.  先生からの選択肢に答えるだけでなく, 授業に対するストレスや評価などを発信することが必要だと考えた. 
+クリッカーは教師が出した問題に対して学生が解答するためのツールであり, 学生側がメッセージを発信するツールではない.  先生からの選択肢に答えるだけでなく, 授業に対するストレスや評価などを自然な形で発信することが重要だと考えた. 
 
 
 \section{サイボウズLive \cite{A3} }
@@ -156,14 +156,14 @@ Interaction, Leap Motion, Gesture
  \item ToDoリスト：メンバーとToDoを共有できる
  \item 共有フォルダ：1グループにつき1Gバイトまで無料でファイルを保存可能
 \end{itemize}
-また, 2014年2月26日よりチャット機能が追加された. チャット機能の利点は以下の3つが紹介されている.\\
+また, チャット機能の利点は以下の3つが紹介されている.\\
 　1つ目は, PCでもスマートフォンでもメッセージがすぐ届く点である. サイボウズLiveのチャット機能はPCだけでなく, スマートフォンでも使うことできる. 投稿したコメントは相手の画面にただちに用事されるので, オンラインのミーティングがスムーズに行える. \\
 　2つ目は,  複数人でも1対1でもチャットが出来る点である. 複数人のメンバーを指定して, チャットスペースを作成できる. また, サイボウズLive上で知人と繋がると, 自動的に1対1のチャットスペースが作成されるので, 簡単にチャットのやりとりをスタートできる. \\
 　3つ目は,  グループ機能と併用すれば, 情報の整理が楽になるという点である. チャットのやりとりで決定したことは, 先に記述したToDoリストに登録しておくことができる. \\
 %画像の挿入
 \begin{figure}[H]
  \begin{center}
-  \includegraphics[width=100mm]{./img/cybozulive.png}
+  \includegraphics[width=120mm]{./img/cybozulive.png}
  \end{center}
  \caption{サイボウズLive}
  \label{cybozu}
@@ -171,16 +171,15 @@ Interaction, Leap Motion, Gesture
 
 %本システムとの違いを描く
 \subsection{提案するシステムとの違い}
-本システムとの違いは1つは入力方法である. 提案するシステムは入力装置としてLeap Motionを使っている. 対してサイボウズLiveはスマホやPCを使って入力する. キーボードやマウスを使って入力するものであり, 手や指の動きで入力操作はできない. そこに着眼し, Leap Motionを使うことで新規性があるのではないかと考えられる. 
-
+本システムとの違いは1つは入力方法である. 提案するシステムは入力装置としてLeap Motionを使っている. 対してサイボウズLiveはスマホやPCを使って入力する. キーボードやマウスを使って入力するものであり, 手や指の動きで入力操作はできない. 
 
 %--------------------------------------------------------------------
-\chapter{提案するアプリケーションの概要}
+\chapter{提案するシステムの概要}
 
 %この章では，提案する理論，仮説，モデル，アルゴリズム，方法論，実装のなどの説明を行う
-提案するアプリケーションは、授業やゼミ等で聞き手が話者にメッセージを発信するための意思決定ツールである. 
+提案するシステムは、授業やゼミ等で聞き手が話者にメッセージを発信するための意思決定ツールである. 
 
-\section{提案するアプリケーションの特徴}
+\section{提案するシステムの特徴}
 %この言語の特徴は，..であり，...という従来にない長所をもつ．
 %このアプリケーションの特徴は、クライアント側はLeap Motionを使ってリアルタイムに入力操作を行い、サーバー側に反映するという長所がある.
 %このアプリケーションの主な特徴は, Leap Motionを使ってリアルタイムに入力操作を行うことである.
@@ -190,7 +189,7 @@ Interaction, Leap Motion, Gesture
 
 %ユーザ視点での特徴を丁寧に箇条書き
 %機能で説明する
-このアプリケーションの特徴は, 主に2つある.\\
+このアプリケーションの主たる特徴は, 2つある.\\
 　1つ目は, Leap Motionで読み取れる4つのジェスチャーを使い, リアルタイムに入力操作を行うことである. \\
 %そもそもの経緯がLeap Motionを使うことにあった
 　2つ目は, クライアント側とサーバー側の二つのプログラムに分かれていることである. このアプリケーションでは, クライアント側とサーバー側間のデータを送受信する手段として, ソケット通信を行った. \\
@@ -252,7 +251,7 @@ Interaction, Leap Motion, Gesture
 
 \begin{itemize}
  \item アカウントナンバー
- \item 手の数
+ \item Leap Morionにかざされている手の数
  \item サークルジェスチャーの回数
  \item スワイプジェスチャーの回数
   \item スクリーンタップジェスチャーの回数
@@ -261,9 +260,9 @@ Interaction, Leap Motion, Gesture
 \end{itemize}
 
 発信される値は全部で7つある, これらの値は, カンマで区切られた1つの文字列になり, サーバー側へ発信される(図\ref{send}).\\ 
-まず, アカウントナンバーは固定値であり, それぞれの聞き手には予め番号が振り分けられている. これにより誰がどのような値を送ったかを特定しサーバー側で処理する. \\
+まず, アカウントナンバーはユーザーを特定するための固有な値であり, それぞれの聞き手には予め番号が振り分けられている. これにより誰がどのような値を送ったかを特定しサーバー側で処理する. \\
 次に, 手の数は聞き手がLeap Motionに手をかざしているかの判定に使う. 発信されている値が0の時は, 手をかざしていないことを発信し, 0よりも大きい値の時, 聞き手が手をかざしていることを表す. \\
-各ジェスチャーの回数は, メッセージに重みをつける際に, 聞き手が行ったジェスチャーの回数である. 発信された値は, サーバー側で処理され, 描写に反映される. 
+各ジェスチャーの回数は, メッセージに重みをつける際に, 聞き手が行ったジェスチャーの回数である. 発信された値は, サーバー側で処理され, 描写に反映される(図\ref{server}参照). 
 最後にメッセージナンバーは, 選択したメッセージを表す. 発信するメッセージは9つ用意されており, それぞれ対応した値が発信される. メッセージナンバーは-1と0から8の値で構成されており, -1のときは選択されていないことを表し, 0から8の値ではそれぞれのメッセージ送られる. \\
 
 \subsubsection{Leap Motionで読み取る値と発信するメッセージについて}
@@ -351,14 +350,14 @@ OS & OS X  Yosemite Macbook Air \\
 
 
 \subsection{Cinderフレームワークについて}
-CinderはC++で書かれたのフレームワークである. 画像や動画, 音声処理に長けており, ライブラリが用意されている. 今回は, アプリケーションの作り方が本で紹介されていたこととCinderを使っての導入事例が多くなってきていることから, Cinderを使って開発を進めることにした. 
+CinderはC++で書かれたのフレームワークである. 画像や動画, 音声処理に長けており, ライブラリが用意されている. 今回は, Cinderを使っての導入事例が多くなってきていることから, Cinderを使って開発を進めることにした. 
 
 
 
 \subsubsection{openFrameworksとの違い}
 %openFrameworksは創造的なコーディングのためのC++のオープンソースツールキットです
 ここではopenFrameworks[]について述べる. openFrameworksはC++のオープンソースツールキットである. openFrameworksは, Cinderと同様に、描写処理等に長けたフレームワークでもあり, Leap Motionを使ったアプリケーションで使われるフレームワークとして、この２つが使われていることが多い. 
-openFrameworksはCinderよりも歴史がある. openFrameworksは2004年に開発され広まっていったのに対し. Cinderは2010年から広まった. goolgeトレンド(図\ref{API})では, 近年, Cinderの方がopenFrameworksよりも流行りであることがわかる. 
+openFrameworksはCinderよりも歴史がある. openFrameworksは2004年に開発され広まっていったのに対し. Cinderは2010年から広まった. goolgeトレンド(図\ref{API})では, 近年, Cinderの方がopenFrameworksよりも広く利用されてきていることがわかる. 
 
 \begin{figure}[H]
  \begin{center}
@@ -372,7 +371,7 @@ openFrameworksはCinderよりも歴史がある. openFrameworksは2004年に開�
 \subsection{Leap Motionについて}
 %Leap Motionの開発元・リリース時期等を記述.開発言語は
 %もっと簡単で良い
-Leap Motion(図 \ref{LeapMotion} )とはアメリカのLeap Motion社が2013年にリリースした手や指を検知することに特化したセンサである. Leap Motionは教育や医療など幅広く使われている. 開発のドキュメントとしては, JavaやC++などの6つが用意されている(図 \ref{Leapdoc}参照).
+Leap Motion(図 \ref{LeapMotion} )とはアメリカのLeap Motion社が2013年にリリースした手や指を検知することに特化したセンサである. Leap Motionは教育に対応するものや医療など幅広く使われている. 開発の可能な言語としては, JavaやC++などの6つが用意されている(図 \ref{Leapdoc}参照).
 
 
 
@@ -388,7 +387,7 @@ Leap Motion(図 \ref{LeapMotion} )とはアメリカのLeap Motion社が2013年�
  \begin{center}
   \includegraphics[width=100mm]{./img/Leapdoc.png}
  \end{center}
- \caption{開発ドキュメント}
+ \caption{開発の可能な言語}
  \label{Leapdoc}
 \end{figure}
 
@@ -445,7 +444,7 @@ Leap Motionの入力装置としての特性を追求した. ここではLeap Mo
   2つ目は, 指の曲げを判定できるので, 入力パターンが豊富であることがいえる. Leap Motionはどの指が曲げられているか, 曲げられている本数は何本か, どのくらい曲げられているか判定することができる. また, 右手と左手の判定もできるので, 以上のことを使えば入力パターンを増やすことが可能である. \\
   3つ目は, Leap Motionをキーボードやマウスなどの入力装置と比較したとき, 音を出さずに入力できるという利点がある. キーボードやマウスにはボタンがあり, 押すとカチッと音がなる. しかし, Leap Motionは指の曲げやジェスチャー等が入力操作として扱われるので音が出ることはない. \\
   一方で, Leap Motionの欠点として次の2つのことを述べる.\\
-  1つ目は, センサに不得意な方向があることである. Leap Motionは赤外線センサーで感知しており,  図\ref{leap}のような逆四角錐の範囲で検知される. そのため手を地と垂直に向けると手のひらで指を隠してしまうため, 誤検知される危険性がある. よって, 意識して地と平行にかざすことでLeap Motionが誤操作が発生しにくいことがわかった.\\
+  1つ目は, 特定の方向ではセンシングが難しいことである. Leap Motionは赤外線センサーで感知しており,  図\ref{leap}のような逆四角錐の範囲で検知される. そのため手を地と垂直に向けると手のひらで指を隠してしまうため, 誤検知される危険性がある. よって, 意識して地と平行にかざすことでLeap Motionが誤操作が発生しにくいことがわかった.\\
   もう1つは, 複数接続が不可能であることである. 1台のPCに接続できるのは1つのLeap Motionで, 2つ以上繋いだ場合, 1台目のLeap Motionが優先され, 2台目は機能しないことがわかった.\\
  
  \begin{figure}[H]
@@ -667,7 +666,7 @@ Leap Motionの入力装置としての特性を追求した. ここではLeap Mo
 \begin{itemize}
  \item 講義などのシーンに関しては現状で良いと思います.\\
  \item スライドが見易い.\\
- \item 話スピードが速い.\\
+ \item 話すスピードが速い.\\
  \item 伝えたいものというより、30秒待たないと発信できないもどかしさがあった。メッセージの種類は丁度良かったと思う.\\
  \item メッセージの種類は丁度良いと思います.\\
  \item おなかがすいたとか休憩したいとか送りたかった.\\
