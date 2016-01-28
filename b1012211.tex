@@ -190,7 +190,7 @@ Interaction, Leap Motion, Gesture
 %ユーザ視点での特徴を丁寧に箇条書き
 %機能で説明する
 このアプリケーションの主たる特徴は, 2つある.\\
-　1つ目は, Leap Motionで読み取れる4つのジェスチャーを使い, リアルタイムに入力操作を行うことである. \\
+　1つ目は, Leap Motionで読み取る4つのジェスチャーを使い, リアルタイムに入力操作を行うことである. \\
 %そもそもの経緯がLeap Motionを使うことにあった
 　2つ目は, クライアント側とサーバー側の二つのプログラムに分かれていることである. このアプリケーションでは, クライアント側とサーバー側間のデータを送受信する手段として, ソケット通信を行った. \\
 　このアプリケーションの機能は以下のものがある.
@@ -220,27 +220,26 @@ Interaction, Leap Motion, Gesture
 最後に, ジェスチャーでメッセージに重みをつける. この段階でも30秒の値が設けてある. ジェスチャーを行った回数で, 自分がどれだけメッセージを伝えたいか発信するメッセージに重みをつけることができる. この回数が次に紹介する各ジェスチャーの値に相当し, 値の大小でサーバー側プログラムの描写が変わる. 
 
 \begin{figure}[H]
- \begin{minipage}{0.3\hsize}
   \begin{center}
-  \includegraphics[width=40mm]{./img/clseni1.png}
+  \includegraphics[width=120mm]{./img/clseni1.png}
   \end{center}
   \caption{画面遷移1}
   \label{senni1}
- \end{minipage}
- \begin{minipage}{0.3\hsize}
+ \end{figure}
+ 
+ \begin{figure}
   \begin{center}
-  \includegraphics[width=40mm]{./img/clseni2.png}
+  \includegraphics[width=120mm]{./img/clseni2.png}
   \end{center}
   \caption{画面遷移2}
   \label{senni2}
-  \end{minipage}
-   \begin{minipage}{0.3\hsize}
+  \end{figure}
+   \begin{figure}
   \begin{center}
-  \includegraphics[width=40mm]{./img/clseni3.png}
+  \includegraphics[width=120mm]{./img/clseni3.png}
   \end{center}
   \caption{画面遷移3}
   \label{senni3}
-  \end{minipage}
 \end{figure}
 
 %どういうメッセージなのか、なぜこのメッセージなのか
@@ -274,7 +273,7 @@ Leap Motionで行うことはジェスチャーの判定とジェスチャーの
 
 \begin{figure}[H]
  \begin{center}
-  \includegraphics[width=100mm]{./img/sendCL.png}
+  \includegraphics[width=120mm]{./img/sendCL.png}
  \end{center}
  \caption{クライアント側から発信する値}
  \label{send}
@@ -284,7 +283,7 @@ Leap Motionで行うことはジェスチャーの判定とジェスチャーの
 サーバー側プログラムの描写(図\ref{server})はのように行われる. クライアント側プログラムから送られてきた値を集計したものが円の大きさや色で反映される. 以下, それらの役割を記述する. 
  \begin{figure}[H]
  \begin{center}
-  \includegraphics[width=100mm]{./img/server.png}
+  \includegraphics[width=120mm]{./img/server.png}
  \end{center}
  \caption{サーバー側プログラムの描写}
  \label{server}
@@ -578,14 +577,14 @@ Leap Motionの入力装置としての特性を追求した. ここではLeap Mo
 \begin{figure}[H]
  \begin{minipage}{0.5\hsize}
   \begin{center}
-  \includegraphics[width=50mm]{./img/question1.png}
+  \includegraphics[width=70mm]{./img/question1.png}
   \end{center}
   \caption{自分のメッセージが発信されたこと\newline についてわかりやすかったと思う}
   \label{question1}
  \end{minipage}
  \begin{minipage}{0.5\hsize}
   \begin{center}
-  \includegraphics[width=50mm]{./img/question2.png}
+  \includegraphics[width=70mm]{./img/question2.png}
   \end{center}
   \caption{サーバー側プログラムの変化\newline がわかった}
   \label{question2}
@@ -595,14 +594,14 @@ Leap Motionの入力装置としての特性を追求した. ここではLeap Mo
 \begin{figure}[H]
  \begin{minipage}{0.5\hsize}
   \begin{center}
-  \includegraphics[width=50mm]{./img/question3.png}
+  \includegraphics[width=70mm]{./img/question3.png}
   \end{center}
   \caption{表示されているものの役割・意味\newline についてまで理解することができた\newline と思う(クライアント側)}
   \label{question3}
  \end{minipage}
  \begin{minipage}{0.5\hsize}
   \begin{center}
-  \includegraphics[width=50mm]{./img/question4.png}
+  \includegraphics[width=70mm]{./img/question4.png}
   \end{center}
   \caption{表示されているものの役割・意味\newline についてまで理解することができた\newline と思う(サーバー側)}
   \label{question4}
@@ -612,14 +611,14 @@ Leap Motionの入力装置としての特性を追求した. ここではLeap Mo
   \begin{figure}[H]
  \begin{minipage}{0.5\hsize}
   \begin{center}
-  \includegraphics[width=50mm]{./img/question5.png}
+  \includegraphics[width=70mm]{./img/question5.png}
   \end{center}
   \caption{話し手の進捗報告は十分に聞けた\newline と思う}
   \label{question5}
  \end{minipage}
  \begin{minipage}{0.5\hsize}
   \begin{center}
-  \includegraphics[width=50mm]{./img/question6.png}
+  \includegraphics[width=70mm]{./img/question6.png}
   \end{center}
   \caption{メッセージの発信後, またはサーバー側プログラムの表示の変化後, 話し手に\newline リアクションがあったと思う}
   \label{question6}
@@ -629,14 +628,14 @@ Leap Motionの入力装置としての特性を追求した. ここではLeap Mo
   \begin{figure}[H]
  \begin{minipage}{0.5\hsize}
   \begin{center}
-  \includegraphics[width=50mm]{./img/question7.png}
+  \includegraphics[width=70mm]{./img/question7.png}
   \end{center}
   \caption{アプリケーションは話し手の邪魔\newline をしているように感じた}
   \label{question7}
  \end{minipage}
  \begin{minipage}{0.5\hsize}
   \begin{center}
-  \includegraphics[width=50mm]{./img/question8.png}
+  \includegraphics[width=70mm]{./img/question8.png}
   \end{center}
   \caption{メッセージの候補の数は適当だったと思う}
   \label{question8}
@@ -773,7 +772,7 @@ Leap Motionの入力装置としての特性を追求した. ここではLeap Mo
 
  \begin{figure}[H]
  \begin{center}
-  \includegraphics[width=100mm]{./img/ank1.png}
+  \includegraphics[width=120mm]{./img/ank1.png}
  \end{center}
  \caption{使用したアンケート1}
  \label{leap}
@@ -781,7 +780,7 @@ Leap Motionの入力装置としての特性を追求した. ここではLeap Mo
 
  \begin{figure}[H]
  \begin{center}
-  \includegraphics[width=100mm]{./img/ank2.png}
+  \includegraphics[width=120mm]{./img/ank2.png}
  \end{center}
  \caption{使用したアンケート2}
  \label{leap}
@@ -789,7 +788,7 @@ Leap Motionの入力装置としての特性を追求した. ここではLeap Mo
 
  \begin{figure}[H]
  \begin{center}
-  \includegraphics[width=100mm]{./img/ank3.png}
+  \includegraphics[width=120mm]{./img/ank3.png}
  \end{center}
  \caption{使用したアンケート3}
  \label{leap}
