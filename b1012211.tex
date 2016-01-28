@@ -12,20 +12,20 @@
 
 % この部分に，タイトル・氏名などを書く．
 % タイトルなどの定義の始まり
-\jtitle{Leap Motionによる教育をインタラクティブにするシステムの提案\\
+\jtitle{Leap Motionによる教育をインタラクティブにする\\システムの提案\\
 %--- 一二三四五六七八九十 ---
 }  % 論文の和文タイトル
 %
 \etitle{Interactive system for education by leap motion sensor
 }% 論文の英文タイトル
 %q
-\htitle{Short Title in English}   % ヘッダー用の論文の短縮英文タイトル
+\htitle{Interactive system for education by leap motion sensor}   % ヘッダー用の論文の短縮英文タイトル
 %     必ず1行に収まるように英文タイトルを短縮する．
 %
 \jauthor{一ノ瀬 智太}     % 氏名(日本語)
 \eauthor{Tomohiro Ichinose }   % 氏名(英語)
 \jaffiliciation{情報アーキテクチャ学科} % 所属学科名(日本語)
-\eaffiliciation{Department of Complex Media Architecture} % 所属学科名(英語)
+\eaffiliciation{Information Architecture} % 所属学科名(英語)
 \studentnumber{1012211}   % 学籍番号
 \jadvisor{美馬 義亮}    % 正指導教員名(日本語)
 %\jcoadvisor{副指導 教員} % 副指導教員(日本語)がいる場合は
@@ -47,7 +47,7 @@
 %--------------------------------------------------------------------
 % 英文概要(250語程度)
 \begin{eabstract}
-Teachers use a blackboard and chalk in the field of school education. Students use pencil and notebook was mainstream. However, classes that use a personal computer and tablet devices have been introduced in recent years. Also, new devices appear. For example, It is Leap Motion and Ring, Smart Watch. Thus, user come to  not push button and wear devices. It is that the exchanges of the information from a teacher to a student are unilateral to be common when I compared the recent school education with the conventional thing. In this study, I assumed that use of leap motion when implement application which capable input method. It is not mouse and keyboard. In this study, the purpose is to implement an application which capable this function, and evaluate usefulness.
+Teachers use a blackboard and chalk in the classroom. Students has been used pencil and notebook. However, classes that use a personal computer and tablet devices have been introduced in recent years. Also, new devices has introduced. They are Leap Motion and Ring, Smart Watch. Thus, user come to  not push button and wear devices. It is that the exchanges of the information from a teacher to a student are unilateral to be common when I compared the recent school education with the conventional thing. In this study, I assumed that use of leap motion when implement application which capable input method. It is not mouse and keyboard. In this study, the purpose is to implement an application which capable this function, and evaluate usefulness.
 \end{eabstract}
 
 % 英文キーワード(5個程度をコンマ(,)で区切って羅列する)
@@ -86,7 +86,7 @@ Interaction, Leap Motion, Gesture
 % 以下に背景，関連する環境，状況，技術に関する概要を記述．
 
 %ここはneeds
-学制百年史\cite{A1} によると日本における大学の誕生は明治時代に遡る.一斉授業の場において,教師は知識を与え学生はそれを吸収するというモデルに基づく. こうした場において, 一部の学生には頬杖をついたり, 居眠りをしたりなどが散見される. その原因として, 日々の生活の疲れだけでなく, 教師の説明が理解できず, 授業についていけないなどのストレスが挙げられる. こうした学生には他の学生に比べて学習意欲が低下しているといえる.\\大学のゼミにおいても同じような状況があるといえる. 話し手が進捗報告や自分の考えを一方的に話し, 聞き手はそれに耳を傾ける. 
+学制百年史\cite{A1} によると日本における大学の誕生は明治時代に遡る. これらは一斉授業の場において,教師は知識を与え学生はそれを吸収するというモデルに基づいている. こうした場において, 一部の学生には頬杖をついたり, 居眠りをしたりすることなどが散見される. その原因として, 日々の生活の疲れだけでなく, 教師の説明が理解できず, 授業についていけないなどのストレスが挙げられる. こうした学生には他の学生に比べて学習意欲が低下しているといえる.\\大学のゼミにおいても同じような状況があるといえる. 話し手が進捗報告や自分の考えを一方的に話し, 聞き手はそれに耳を傾ける. 
 %ゼミでもカバーできるということを記述
 %一斉授業の形態として, 教師という話し手に対し,, 学生が聞き手である. 
 %ゼミでの教師か学生が話し手でその他の学生と
@@ -94,7 +94,7 @@ Interaction, Leap Motion, Gesture
 %ここはseeds、技術的な変化
 %新しいデバイス, ネットワークインフラの登場　→　学校内でLANが普及しネットが...
 % 									　 →　LeapMotionを使う、PC、タブレット端末等を使うようになった
-近年では, Leap MotionやRing, スマートウォッチなどの新しいデバイスの登場している. その結果, 今までマウスやキーボードで入力する方法以外にも, ジェスチャーを使って入力したりPCを操作できるようになった. また, 学校内でのLANや学外でのロボットコンテストなどが普及してきており,  PCやタブレット端末などが教育でも使われるようになってきたといえる. 
+近年では, Leap MotionやRing, スマートウォッチなどの新しいデバイスが登場している. その結果, 今までマウスやキーボードで入力する方法以外にも, ジェスチャーを使って入力したりPCを操作できるようになった. また, 学校内でのLANや学外でのロボットコンテストなどが普及してきており,  PCやタブレット端末などが教育でも使われるようになってきたといえる. 
 
 \section{研究目標}
 本研究では, 授業中やゼミの中で情報のやりとりが一方的に行われている問題に着目した. この問題を解決するために教師や発表者である話し手と, 話を聞く聞き手との間に双方向性をもたせ,  対話的な授業運営, ゼミの進行を図ることを研究目標とする. その方法として, Leap Motionというセンサが手や指の位置, 方向, 曲げ, ジェスチャー等を検知できるセンサを用いて, 双方向性を実現するアプリケーションを実装することを目的とする. 具体的には学生が授業中に抱いている「大きな声で話してほしい」や「もう一度説明してほしい」などのメッセージをLeap Motionで入力し,教師に伝えるということをめざす. この時, 話し手には話の邪魔をしないことや話し手が応答があるようにすることを前提とし, これを満たすアプリケーションの提案を目指す. 
@@ -133,7 +133,7 @@ Interaction, Leap Motion, Gesture
 %本システムとの違いを描く
 %画像の挿入
 \subsection{提案するシステムとの違い}
-クリッカーは教師が出した問題に対して学生が解答するためのツールであり, 学生側がメッセージを発信するツールではない.  先生からの選択肢に答えるだけでなく, 授業に対するストレスや評価などを発信することが必要だと考えた. 
+クリッカーは教師が出した問題に対して学生が解答するためのツールであり, 学生側がメッセージを発信するツールではない.  先生からの選択肢に答えるだけでなく, 授業に対するストレスや評価などを自然な形で発信することが重要だと考えた. 
 
 
 \section{サイボウズLive \cite{A3} }
@@ -156,14 +156,14 @@ Interaction, Leap Motion, Gesture
  \item ToDoリスト：メンバーとToDoを共有できる
  \item 共有フォルダ：1グループにつき1Gバイトまで無料でファイルを保存可能
 \end{itemize}
-また, 2014年2月26日よりチャット機能が追加された. チャット機能の利点は以下の3つが紹介されている.\\
+また, チャット機能の利点は以下の3つが紹介されている.\\
 　1つ目は, PCでもスマートフォンでもメッセージがすぐ届く点である. サイボウズLiveのチャット機能はPCだけでなく, スマートフォンでも使うことできる. 投稿したコメントは相手の画面にただちに用事されるので, オンラインのミーティングがスムーズに行える. \\
 　2つ目は,  複数人でも1対1でもチャットが出来る点である. 複数人のメンバーを指定して, チャットスペースを作成できる. また, サイボウズLive上で知人と繋がると, 自動的に1対1のチャットスペースが作成されるので, 簡単にチャットのやりとりをスタートできる. \\
 　3つ目は,  グループ機能と併用すれば, 情報の整理が楽になるという点である. チャットのやりとりで決定したことは, 先に記述したToDoリストに登録しておくことができる. \\
 %画像の挿入
 \begin{figure}[H]
  \begin{center}
-  \includegraphics[width=100mm]{./img/cybozulive.png}
+  \includegraphics[width=120mm]{./img/cybozulive.png}
  \end{center}
  \caption{サイボウズLive}
  \label{cybozu}
@@ -171,8 +171,7 @@ Interaction, Leap Motion, Gesture
 
 %本システムとの違いを描く
 \subsection{提案するシステムとの違い}
-本システムとの違いは1つは入力方法である. 提案するシステムは入力装置としてLeap Motionを使っている. 対してサイボウズLiveはスマホやPCを使って入力する. キーボードやマウスを使って入力するものであり, 手や指の動きで入力操作はできない. そこに着眼し, Leap Motionを使うことで新規性があるのではないかと考えられる. 
-
+本システムとの違いは1つは入力方法である. 提案するシステムは入力装置としてLeap Motionを使っている. 対してサイボウズLiveはスマホやPCを使って入力する. キーボードやマウスを使って入力するものであり, 手や指の動きで入力操作はできない. 
 
 %--------------------------------------------------------------------
 \chapter{提案するアプリケーションの概要}
