@@ -2,37 +2,37 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces サイボウズLive}}{3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces 画面遷移1}}{5}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces 画面遷移2}}{5}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces 画面遷移3}}{5}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces クライアント側から発信する値}}{6}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces サーバー側プログラムの描写}}{7}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces 集計結果を表す円}}{8}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces 円の色が示すメッセージ}}{8}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces 接続されている人数を示すマリオネット}}{8}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces CidnerとopenFrameworks}}{10}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Leap Motion}}{10}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces 開発の可能な言語}}{10}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces サークルジェスチャー}}{11}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces スクリーンタップジェスチャー}}{11}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces スワイプジェスチャー}}{11}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces キータップジェスチャー}}{11}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Leap Motionのセンサ範囲}}{12}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 画面遷移1}}{5}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 画面遷移3}}{6}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces クライアント側から発信する値}}{7}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces サーバー側プログラムの描写}}{8}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 集計結果を表す円}}{9}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 円の色が示すメッセージ}}{9}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces 接続されている人数を示すマリオネット}}{9}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces CidnerとopenFrameworks}}{11}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Leap Motion}}{11}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces 開発の可能な言語}}{11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces サークルジェスチャー}}{12}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces スクリーンタップジェスチャー}}{12}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces スワイプジェスチャー}}{12}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces キータップジェスチャー}}{12}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Leap Motionのセンサ範囲}}{13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 自分のメッセージが発信されたこと\newline についてわかりやすかったと思う}}{15}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces サーバー側プログラムの変化\newline がわかった}}{15}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 表示されているものの役割・意味\newline についてまで理解することができた\newline と思う(クライアント側)}}{15}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces 表示されているものの役割・意味\newline についてまで理解することができた\newline と思う(サーバー側)}}{15}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces 話し手の進捗報告は十分に聞けた\newline と思う}}{15}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces メッセージの発信後, またはサーバー側プログラムの表示の変化後, 話し手に\newline リアクションがあったと思う}}{15}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces アプリケーションは話し手の邪魔\newline をしているように感じた}}{16}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces メッセージの候補の数は適当だったと思う}}{16}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 自分のメッセージが発信されたこと\newline についてわかりやすかったと思う}}{16}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces サーバー側プログラムの変化\newline がわかった}}{16}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 表示されているものの役割・意味\newline についてまで理解することができた\newline と思う(クライアント側)}}{16}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 表示されているものの役割・意味\newline についてまで理解することができた\newline と思う(サーバー側)}}{16}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 話し手の進捗報告は十分に聞けた\newline と思う}}{17}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces メッセージの発信後, またはサーバー側プログラムの表示の変化後, 話し手に\newline リアクションがあったと思う}}{17}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces アプリケーションは話し手の邪魔\newline をしているように感じた}}{17}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces メッセージの候補の数は適当だったと思う}}{17}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces 使用したアンケート1}}{23}
-\contentsline {figure}{\numberline {2}{\ignorespaces 使用したアンケート2}}{24}
-\contentsline {figure}{\numberline {3}{\ignorespaces 使用したアンケート3}}{25}
-\contentsline {figure}{\numberline {4}{\ignorespaces Leap Motionのセットアップ}}{27}
-\contentsline {figure}{\numberline {5}{\ignorespaces インストール画面}}{27}
-\contentsline {figure}{\numberline {6}{\ignorespaces Leap Motionのアイコン}}{27}
-\contentsline {figure}{\numberline {7}{\ignorespaces Leap Motionの設定画面}}{27}
+\contentsline {figure}{\numberline {1}{\ignorespaces 使用したアンケート1}}{25}
+\contentsline {figure}{\numberline {2}{\ignorespaces 使用したアンケート2}}{26}
+\contentsline {figure}{\numberline {3}{\ignorespaces 使用したアンケート3}}{27}
+\contentsline {figure}{\numberline {4}{\ignorespaces Leap Motionのセットアップ}}{29}
+\contentsline {figure}{\numberline {5}{\ignorespaces インストール画面}}{29}
+\contentsline {figure}{\numberline {6}{\ignorespaces Leap Motionのアイコン}}{29}
+\contentsline {figure}{\numberline {7}{\ignorespaces Leap Motionの設定画面}}{29}
