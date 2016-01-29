@@ -1,0 +1,71 @@
+% 公立はこだて未来大学 卒業論文 テンプレート ver1.50
+% (c) Junichi Akita (akita@fun.ac.jp), 2003.10.31
+% update by N.T.,  2004.11.10
+%
+\documentclass{funthesis}
+%\documentclass[english]{funthesis} % use [english] option for English style
+
+%\usepackage{graphicx} % 図(EPS形式)を本文中で読み込む場合はこれを宣言
+\usepackage[dvipdfmx]{graphicx}
+\graphicspath{{./img/}}
+\usepackage{here}
+ \usepackage{url}
+
+% この部分に，タイトル・氏名などを書く．
+% タイトルなどの定義の始まり
+\jtitle{Leap Motionによる教育をインタラクティブにする\\システムの提案\\
+%--- 一二三四五六七八九十 ---
+}  % 論文の和文タイトル
+%
+\etitle{Interactive system for education by leap motion sensor
+}% 論文の英文タイトル
+%q
+\htitle{Interactive system for education by leap motion sensor}   % ヘッダー用の論文の短縮英文タイトル
+%     必ず1行に収まるように英文タイトルを短縮する．
+%
+\jauthor{一ノ瀬 智太}     % 氏名(日本語)
+\eauthor{Tomohiro Ichinose }   % 氏名(英語)
+\jaffiliciation{情報アーキテクチャ学科} % 所属学科名(日本語)
+\eaffiliciation{Department of Media Architecture} % 所属学科名(英語)
+\studentnumber{1012211}   % 学籍番号
+\jadvisor{美馬 義亮}    % 正指導教員名(日本語)
+%\jcoadvisor{副指導 教員} % 副指導教員(日本語)がいる場合は
+                        % コメントアウトし名前を書く
+                        % 副指導教員がいない場合は，ここは削除しても可
+\eadvisor{Yoshiaki Mima}  % 正指導教員名(英語)
+%\ecoadvisor{Prof. Coadvisor}   % 副指導教員(英語)がいる場合は
+                         % コメントアウトし名前を書く
+                         % 副指導教員がいない場合は，ここは削除しても可
+\jdate{平成28年1月29日}    % 論文提出日   (日本語)
+\edate{January 29, 2016}     % 論文提出年月　(英語)
+% タイトルなどの定義の終わり
+
+\begin{document}
+
+%--------------------------------------------------------------------
+\maketitle       % タイトルページを作成
+
+%--------------------------------------------------------------------
+% 英文概要(250語程度)
+\begin{eabstract}
+Teachers use a blackboard and chalk in the classroom. Students has been used pencil and notebook. However, classes that use a personal computer and tablet devices have been introduced in recent years. Teacher make the documentation for classes by PC. And Teacher projected it for the projector. The form is being spreaded what the teacher is able to send information to a student along it. Also, new devices has introduced. They are Leap Motion and Ring, Smart Watch. Thus, user come to  not push keyboard and wear devices. It is that the exchanges of the information from a teacher to a student are unilateral to be common when I compared the recent school education with the conventional thing. Teachers talk about classes with platform, students are learning to hear it. In this study, I assumed that use of leap motion when implement application which capable input method. It is not mouse and keyboard. In this study, the purpose is to implement an application which capable this function, and evaluate usefulness.
+\end{eabstract}
+
+% 英文キーワード(5個程度をコンマ(,)で区切って羅列する)
+\begin{ekeyword}
+Interaction, Leap Motion, Gesture
+\end{ekeyword}
+
+%--------------------------------------------------------------------
+% 和文概要(400字程度)
+\begin{jabstract}
+学校教育の場において教師は黒板とチョークを使い, 学生は鉛筆やノートを使った授業が主流であった. しかし, 近年ではパーソナルコンピュータやタブレット端末を使った授業が取り入れられている. 例えば, 教師は授業の資料をPCで作成し, プロジェクターなどで投影する. それに沿って教師は学生へ情報を発信するというような形態が広まりつつある.  また, 新しいデバイスが登場している. Leap MotionやRing, スマートウォッチなどが例である. これによりキーボードを叩かずに入力操作を行ったり, デバイスを身につけるという変化が起こっている. 近年の学校教育を従来のものと比較した際に共通することは, 教師から学生への情報のやり取りが一方的なことである. 教師は授業に関することを教壇で話し, 学生はそれを聞いて学習する. 本研究では, Leap Motionを使うことを前提として, マウスやキーボードにない入力方法でメッセージを発信するアプリケーションを実装する. そのとき提案するアプリケーションが話者の邪魔をしたり, 話者の応答がないものであってはならない. 本研究では, これらを踏まえたアプリケーションを実装し,その有用性を評価することを目的とする. 
+
+\end{jabstract}
+
+% 和文キーワード(5個程度をコンマ(,)で区切って羅列する)
+\begin{jkeyword}
+双方向性, Leap Motion, ジェスチャー
+\end{jkeyword}
+
+\end{document}
