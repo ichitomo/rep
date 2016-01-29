@@ -2,45 +2,45 @@
 \contentsline {section}{\numberline {1.1}背景}{1}
 \contentsline {section}{\numberline {1.2}研究目標}{1}
 \contentsline {chapter}{\numberline {第2章}関連研究}{2}
-\contentsline {section}{\numberline {2.1}クリッカー\cite {A2} }{2}
-\contentsline {subsection}{\numberline {2.1.1}提案するシステムとの違い}{2}
-\contentsline {section}{\numberline {2.2}サイボウズLive \cite {A3} }{2}
-\contentsline {subsection}{\numberline {2.2.1}提案するシステムとの違い}{3}
-\contentsline {chapter}{\numberline {第3章}提案するシステムの概要}{4}
-\contentsline {section}{\numberline {3.1}提案するシステムの特徴}{4}
-\contentsline {subsubsection}{メッセージの種類}{4}
-\contentsline {section}{\numberline {3.2}クライアント側のプログラムの役割}{5}
-\contentsline {subsubsection}{メッセージを発信する手順}{5}
+\contentsline {section}{\numberline {2.1}クリッカー }{2}
+\contentsline {subsection}{\numberline {2.1.1}提案するシステムとの違い}{3}
+\contentsline {section}{\numberline {2.2}サイボウズLive \cite {A3} }{3}
+\contentsline {subsection}{\numberline {2.2.1}提案するシステムとの違い}{4}
+\contentsline {chapter}{\numberline {第3章}提案するシステムの概要}{5}
+\contentsline {section}{\numberline {3.1}提案するシステムの特徴}{5}
+\contentsline {subsubsection}{メッセージの種類}{6}
+\contentsline {section}{\numberline {3.2}クライアント側プログラムの役割}{6}
+\contentsline {subsubsection}{メッセージを発信する手順}{6}
 \contentsline {subsubsection}{クライアント側から発信する値について}{7}
-\contentsline {subsubsection}{Leap Motionで読み取る値と発信するメッセージについて}{7}
-\contentsline {section}{\numberline {3.3}サーバー側のプログラムの役割}{8}
-\contentsline {subsubsection}{描写処理について}{9}
-\contentsline {subsubsection}{メッセージナンバーの集計}{10}
-\contentsline {section}{\numberline {3.4}実装方法}{10}
-\contentsline {subsection}{\numberline {3.4.1}言語・ツール・開発環境}{10}
-\contentsline {subsection}{\numberline {3.4.2}Cinderフレームワークについて}{11}
-\contentsline {subsubsection}{openFrameworksとの違い}{11}
-\contentsline {subsection}{\numberline {3.4.3}Leap Motionについて}{11}
-\contentsline {subsubsection}{Leap Motionの評価}{12}
-\contentsline {chapter}{\numberline {第4章}実験と評価}{15}
-\contentsline {section}{\numberline {4.1}実験の目的}{15}
-\contentsline {section}{\numberline {4.2}方法}{15}
-\contentsline {subsection}{\numberline {4.2.1}日時と場所}{15}
-\contentsline {subsection}{\numberline {4.2.2}被験者}{15}
-\contentsline {subsection}{\numberline {4.2.3}道具}{15}
-\contentsline {subsection}{\numberline {4.2.4}手順}{15}
-\contentsline {subsection}{\numberline {4.2.5}アンケート}{16}
-\contentsline {subsubsection}{5段階評価の質問}{16}
-\contentsline {subsubsection}{自由記述}{16}
-\contentsline {subsection}{\numberline {4.2.6}アンケート結果}{17}
-\contentsline {subsubsection}{アンケート集計結果}{17}
-\contentsline {subsubsection}{自由記述の結果}{19}
-\contentsline {chapter}{\numberline {第5章}考察}{22}
-\contentsline {section}{\numberline {5.1}話し手のアプリケーションに対するリアクション}{22}
-\contentsline {section}{\numberline {5.2}話し手の邪魔になっていないか}{22}
-\contentsline {chapter}{\numberline {第6章}結論と今後の展開}{23}
-\contentsline {section}{\numberline {6.1}まとめ}{23}
-\contentsline {section}{\numberline {6.2}今後の方針}{23}
-\contentsline {subsubsection}{Leap Motionを使用するために}{29}
-\contentsline {subsubsection}{Leap Motionを使用する前の確認事項}{29}
-\contentsline {subsubsection}{Leap MotionSDKのダウンロード}{29}
+\contentsline {subsubsection}{Leap Motionで読み取る値と発信するメッセージについて}{9}
+\contentsline {section}{\numberline {3.3}サーバー側のプログラムの役割}{10}
+\contentsline {subsubsection}{描写処理について}{10}
+\contentsline {subsubsection}{メッセージナンバーの集計}{11}
+\contentsline {section}{\numberline {3.4}実装方法}{12}
+\contentsline {subsection}{\numberline {3.4.1}言語・ツール・開発環境}{12}
+\contentsline {subsection}{\numberline {3.4.2}Cinderフレームワークについて}{12}
+\contentsline {subsubsection}{openFrameworksとの違い}{12}
+\contentsline {subsection}{\numberline {3.4.3}Leap Motionについて}{13}
+\contentsline {subsubsection}{Leap Motionの評価}{14}
+\contentsline {chapter}{\numberline {第4章}実験と評価}{16}
+\contentsline {section}{\numberline {4.1}実験の目的}{16}
+\contentsline {section}{\numberline {4.2}方法}{16}
+\contentsline {subsection}{\numberline {4.2.1}日時と場所}{16}
+\contentsline {subsection}{\numberline {4.2.2}被験者}{16}
+\contentsline {subsection}{\numberline {4.2.3}道具}{17}
+\contentsline {subsection}{\numberline {4.2.4}手順}{17}
+\contentsline {subsection}{\numberline {4.2.5}アンケート}{17}
+\contentsline {subsubsection}{5段階評価の質問}{17}
+\contentsline {subsubsection}{自由記述}{18}
+\contentsline {subsection}{\numberline {4.2.6}アンケート結果}{18}
+\contentsline {subsubsection}{アンケート集計結果}{18}
+\contentsline {subsubsection}{自由記述の結果}{20}
+\contentsline {chapter}{\numberline {第5章}考察}{23}
+\contentsline {section}{\numberline {5.1}話し手のシステムに対するリアクション}{23}
+\contentsline {section}{\numberline {5.2}話し手の邪魔になっていないか}{23}
+\contentsline {chapter}{\numberline {第6章}結論と今後の展開}{24}
+\contentsline {section}{\numberline {6.1}まとめ}{24}
+\contentsline {section}{\numberline {6.2}今後の方針}{24}
+\contentsline {subsubsection}{Leap Motionを使用するために}{30}
+\contentsline {subsubsection}{Leap Motionを使用する前の確認事項}{30}
+\contentsline {subsubsection}{Leap MotionSDKのダウンロード}{30}
